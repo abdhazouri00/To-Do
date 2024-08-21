@@ -1,0 +1,6 @@
+.tasksHeader{
+    width: 432px;
+    display: flex;
+    margin-top: 50px;
+    font-size: 16px;
+}

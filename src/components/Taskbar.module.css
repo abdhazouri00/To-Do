@@ -1,0 +1,59 @@
+.taskbardiv {
+  width: 432px !important;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskbardivLeft {
+  border-radius: 10px;
+  border: solid 1.5px #3e1671;
+  width: 381px;
+  height: 40px;
+  display: flex;
+  place-items: center;
+  color: #777777;
+  text-align: left;
+  font-size: 16px;
+  margin-right: 11px;
+
+  > input {
+    margin: 13px 0 13px 13px;
+    text-decoration: none;
+    background: none;
+    border: none;
+    width: 381px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid 0px #3e1671;
+  }
+
+  > input:focus {
+    outline: none;
+    border: none;
+  }
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  background-color: #9e78cf;
+  opacity: 85%;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover{
+  cursor: pointer;
+  opacity: 100%;
+}
+
+.button > svg {
+  width: 25px;
+  height: 25px;
+}

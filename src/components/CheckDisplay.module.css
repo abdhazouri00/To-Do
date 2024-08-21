@@ -1,0 +1,42 @@
+.mainDisplay {
+
+    margin-top: 10px;
+}
+
+.taskDisplay {
+
+    width: 432px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    background-color: #15101C;
+    border-radius: 10px;
+    color: #78CFB0;
+    font-size: 16px;
+    align-items: center;
+    gap: 20px;
+    padding: 0 15px;
+
+    >p {
+
+        margin-left: 21px;
+        text-decoration: line-through;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+.displayRight {
+
+    margin-left: auto;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.savg:hover {
+
+    opacity: 70%;
+}
